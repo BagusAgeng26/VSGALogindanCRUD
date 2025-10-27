@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editKampus" type="id" />
+    <item name="editNamaLengkap" type="id" />
+    <item name="textRegisterTitle" type="id" />
+    <item name="editUsername" type="id" />
+    <item name="editPassword" type="id" />
+    <item name="editEmail" type="id" />
+    <item name="editAlamat" type="id" />
+    <item name="btnRegister" type="id" />
+    <item name="textLoginTitle" type="id" />
+    <item name="editUserName" type="id" />
+    <item name="button" type="id" />
+    <item name="button2" type="id" />
+</resources>

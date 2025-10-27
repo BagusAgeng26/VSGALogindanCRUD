@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@android:color/white"
+    tools:context=".RegisterActivity">
+
+    <!-- Judul REGISTER -->
+    <TextView
+        android:id="@+id/textRegisterTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/uin_green_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <!-- Username -->
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="12dp"
+        android:backgroundTint="@color/uin_black_dark"
+        app:layout_constraintTop_toBottomOf="@id/textRegisterTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:backgroundTint="@color/uin_black_dark"
+        app:layout_constraintTop_toBottomOf="@id/editUsername"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp" />
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:backgroundTint="@color/uin_black_dark"
+        app:layout_constraintTop_toBottomOf="@id/editPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp" />
+
+    <!-- Nama Lengkap -->
+    <EditText
+        android:id="@+id/editNamaLengkap"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:backgroundTint="@color/uin_black_dark"
+        app:layout_constraintTop_toBottomOf="@id/editEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp" />
+
+    <!-- Alamat -->
+    <EditText
+        android:id="@+id/editAlamat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:inputType="textPostalAddress"
+        android:padding="12dp"
+        android:backgroundTint="@color/uin_black_dark"
+        app:layout_constraintTop_toBottomOf="@id/editNamaLengkap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp" />
+
+    <!-- Tombol Daftar -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="14dp"
+        android:backgroundTint="@color/uin_gold"
+        android:text="Daftar Sekarang"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editAlamat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

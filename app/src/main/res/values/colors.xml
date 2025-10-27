@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Warna dari Logo UIN -->
+    <color name="uin_green_dark">#234121</color>
+    <color name="uin_gold">#D89B1D</color>
+    <color name="uin_teal_dark">#0E3B3E</color>
+    <color name="uin_green_medium">#4D6E3D</color>
+    <color name="uin_black_dark">#1B1C1C</color>
+    <color name="uin_red">#9B001E</color>
+</resources>
